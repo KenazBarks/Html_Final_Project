@@ -16,3 +16,8 @@ aside img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+aside h1 {
+	text-align: center;
+	text-decoration: underline;
+}

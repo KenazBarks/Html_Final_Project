@@ -41,6 +41,8 @@ nav.horizontal {
 	background-color: #0A1B2D;
 	min-height: 2em;
     text-align: center;
+	border: 2px solid rgb(41, 175, 209);
+	min-height: 53px;
 }
 
 nav.horizontal ul {
