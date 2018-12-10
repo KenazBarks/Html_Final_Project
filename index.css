@@ -6,7 +6,7 @@ aside {
     background: linear-gradient( rgb(179, 205, 230), rgb(27, 86, 142));
     clear: both;
 	max-width: 33.33%;
-	font-size: 1.4em;.---.-.
+	font-size: 1.4em;
 }
 
 aside img {
@@ -20,4 +20,5 @@ aside img {
 aside h1 {
 	text-align: center;
 	text-decoration: underline;
+	padding-bottom: 10px;
 }
