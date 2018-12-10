@@ -1,0 +1,12 @@
+@charset "utf-8"; 
+
+img {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+section  h1{
+	font-size: 2em;
+	padding: 5px;
+}
