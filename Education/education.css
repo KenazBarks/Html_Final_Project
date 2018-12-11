@@ -1,12 +1,29 @@
 @charset "utf-8"; 
 
 img {
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	float: left;
 }
 
-section  h1{
+section  th{
 	font-size: 2em;
 	padding: 5px;
+	line-height: 1em;
+	text-align: left;
 }
+
+table {
+	border: 2px solid black;
+}
+
+ th {
+	border: 2px solid black;
+	width: 50%;
+}
+
+td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+	

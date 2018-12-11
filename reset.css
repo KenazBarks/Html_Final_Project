@@ -39,17 +39,17 @@ nav a {
  
 /*Actual Styles*/
 html{ 
-	background-color: rgb(29, 117, 135);
+	background-color: #3366cc;
 }
 
 body {
-	background: rgb(29, 117, 135) center center / cover no-repeat fixed;
+	background: #3366cc;
 	height: 100%;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 70%;
 }
 
 header {
@@ -78,7 +78,7 @@ nav.horizontal {
 	background-image: url(download.jpeg);
 	min-height: 2em;
     text-align: center;
-	border: 2px solid rgb(41, 175, 209);
+	border: 2px solid #003399;
 	min-height: 53px;
 }
 
@@ -114,7 +114,7 @@ nav.horizontal a:hover, nav.horizontal a:active {
 
 footer {
 	color: white;
-	background-color: rgb(101,101,101);
+	background-color: #3366cc;
 	font-size: 0.8em;
 	text-align: center;
 	padding-top: 1px;
