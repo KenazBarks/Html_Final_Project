@@ -7,6 +7,7 @@ aside {
     clear: both;
 	max-width: 33.33%;
 	font-size: 1.4em;
+	border: 2px solid black;
 }
 
 aside img {

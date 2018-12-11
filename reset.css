@@ -74,6 +74,10 @@ section#other {
 	height: 100%;
 }
 
+a#navicon {
+	display: none;
+}
+
 nav.horizontal {
 	background-image: url(download.jpeg);
 	min-height: 2em;
@@ -93,8 +97,8 @@ nav.horizontal li {
 	float: left;
 	line-height: 2em;
 	text-transform: uppercase;
-	width: 16.6666%;
-	background-image: radial-gradient( rgb(142, 124, 255), #0A1B2D);
+	width: 20%;
+	background-image: radial-gradient( #27417A, #0A1B2D);
 	height: 100%;
 }
 
@@ -121,14 +125,25 @@ footer {
 	padding-bottom:1px;
   }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 530px) {
 
-div.galaxy section {
-	font-size: 1.5em;
+div.galaxy section{
+	font-size: 2em;
 }
 
-nav.horizontal a {
-    font-size: 1.5em;
-    line-height: 2.2em;
-   } 
- 
+nav.horizontal ul {
+	display: none;
+}
+
+a#navicon:hover+ul, a#navicon ul:hover {
+		display: block;
+		list-style-type: none;
+	}
+
+
+
+
+
+
+
+}
