@@ -139,7 +139,7 @@ a#navicon {
 	width: 50px;
 }
 
-a#navicon:hover+ul, a#navicon ul:hover {
+nav.horizontal a#navicon:hover+ul, nav.horizontal a#navicon ul:hover {
 	display: block;
 }
 

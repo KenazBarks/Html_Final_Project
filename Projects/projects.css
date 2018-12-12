@@ -4,14 +4,26 @@ h1 {
 	font-size: 2em;
 	padding: 0.5em;
 }
- 
- 
- 
- 
+
 img {
 	width: 30%;
 	height: 30%;
 }
- div.cases {
+
+[id^=html] {
 	display: none;
 }
+
+hr{ 
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+[id^=htm0] {
+	text-decoration: none;
+	color: white;
+}
+
+a#htm01:hover {
+	display: block
