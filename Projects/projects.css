@@ -10,7 +10,7 @@ img {
 	height: 30%;
 }
 
-[id^=html] {
+div.Html {
 	display: none;
 }
 
@@ -23,7 +23,11 @@ hr{
 [id^=htm0] {
 	text-decoration: none;
 	color: white;
+	float: left;
+	width: 16.666%;
+	font-size: 1.25em;
 }
 
-a#htm01:hover {
-	display: block
+a#htm01:hover + div.Html {
+	display: block;
+}

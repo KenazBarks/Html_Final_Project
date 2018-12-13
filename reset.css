@@ -46,7 +46,7 @@ body {
 	background: #3366cc;
 	height: 100%;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
+	font-size: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -121,8 +121,8 @@ footer {
 	background-color: #3366cc;
 	font-size: 0.8em;
 	text-align: center;
-	padding-top: 1px;
-	padding-bottom:1px;
+	padding-top: 1%;
+	padding-bottom:1%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -135,8 +135,8 @@ nav.horizontal ul {
 
 a#navicon {
 	display: block;
-	height:50px;
-	width: 50px;
+	height:5%;
+	width: 5%;
 }
 
 nav.horizontal a#navicon:hover+ul, nav.horizontal a#navicon ul:hover {
