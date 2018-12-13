@@ -18,7 +18,6 @@ li, main, nav, nav a, section, ul {
    -moz-box-sizing: border-box;
    box-sizing: border-box;  
 }
-/*AAAAA*/
 
 body {
    line-height: 1.2em;
@@ -39,11 +38,12 @@ nav a {
  
 /*Actual Styles*/
 html{ 
-	background-color: #3366cc;
+	background-image: linear-gradient(#0D4F8B, #8A2BE2, #0D4F8B);
+	background-repeat: no-repeat;
+	min-height: 100%;
 }
 
 body {
-	background: #3366cc;
 	height: 100%;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 75%;
@@ -66,12 +66,7 @@ div.galaxy section {
 	color: white;
 	text-align: center;
 	font-size: 5em;	
-}
-
-section#other {
-	min-height: 750px;
-	width: 66.666%;
-	height: 100%;
+	line-height: 80%;
 }
 
 a#navicon {
@@ -80,16 +75,17 @@ a#navicon {
 
 nav.horizontal {
 	background-image: url(download.jpeg);
-	min-height: 2em;
+	min-height: 100%;
     text-align: center;
 	border: 2px solid #003399;
-	min-height: 53px;
+	overflow: hidden;
 }
 
 nav.horizontal ul {
 	list-style-type: none;
     margin: 0;
     padding: 0;
+	height: 100%;
 }
 
 nav.horizontal li {
@@ -117,8 +113,9 @@ nav.horizontal a:hover, nav.horizontal a:active {
 }
 
 footer {
+	clear: both;
 	color: white;
-	background-color: #3366cc;
+	background-color: #108070;
 	font-size: 0.8em;
 	text-align: center;
 	padding-top: 1%;
@@ -130,16 +127,17 @@ footer {
 
 
 nav.horizontal ul {
+	clear: both;
 	display: none;
+	width: 100%;
 }
 
 a#navicon {
 	display: block;
-	height:5%;
-	width: 5%;
+	float: left;
 }
 
-nav.horizontal a#navicon:hover+ul, nav.horizontal a#navicon ul:hover {
+a#navicon:hover+ul, nav.horizontal a#navicon ul {
 	display: block;
 }
 

@@ -25,9 +25,18 @@ hr{
 	color: white;
 	float: left;
 	width: 16.666%;
-	font-size: 1.25em;
+	height: 100%;
+	font-size: 1.5em;
 }
 
-a#htm01:hover + div.Html {
+#cases li:hover + div.Html {
 	display: block;
+}
+
+#cases li:hover, [id^=htm0 != htm01] {
+	display: none;
+}
+
+article {
+	background-size: 0%;
 }
