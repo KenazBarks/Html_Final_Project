@@ -50,6 +50,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
+	padding-bottom: 40px;
 }
 
 header {
@@ -118,29 +119,43 @@ footer {
 	background-color: #108070;
 	font-size: 0.8em;
 	text-align: center;
-	padding-top: 1%;
-	padding-bottom:1%;
+	padding-bottom:0%;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 35px;
+	width: 100%;
+	font-size: 1.2em;
 }
 
 @media only screen and (max-width: 480px) {
 
+div.galaxy {
+	max-height: 256px;
+}
 
+
+aside p{
+	font-size: 0.5em;
+	line-height: 1em;
+}
+aside h1{
+	font-size: 0.75em;
+}
+
+section#other img {
+	width: 50%;
+	height: 50%;
+}
 
 nav.horizontal ul {
 	clear: both;
-	display: none;
 	width: 100%;
 }
 
-a#navicon {
-	display: block;
-	float: left;
+nav.horizontal li a {
+	font-size: 0.75em;
 }
-
-a#navicon:hover+ul, nav.horizontal a#navicon ul {
-	display: block;
-}
-
 
 
 

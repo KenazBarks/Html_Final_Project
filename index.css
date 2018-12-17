@@ -1,14 +1,18 @@
 @charset "utf-8";
 
+div#all {
+	width: 100%;
+}
+
+
 aside {
-	float: left;
 	color: white;
     background: linear-gradient( rgb(179, 205, 230), rgb(27, 86, 142));
-    clear: both;
-	max-width: 33%;
+	width: 34%;
 	font-size: 1.4em;
 	border: 2px solid black;
 	line-height: 110%;
+	float: left;
 }
 
 aside img {
@@ -26,11 +30,11 @@ aside h1 {
 }
 
 section#other {
-	clear: left;
-	float: right;
-	min-height: 100%;
+	width: 65%;
+	float: left;
 }
 
 section#other img {
-
+	width: 100%;
 }
+

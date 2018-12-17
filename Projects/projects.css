@@ -1,5 +1,5 @@
  @charset "utf-8";
- 
+   
 h1 {
 	font-size: 2em;
 	padding: 0.5em;
@@ -40,4 +40,17 @@ div.Html:hover {
 
 article {
 	background-size: 0%;
+	line-height: 2em;
+}
+
+img {
+	border-radius: 15%;
+}
+
+@media only screen and (max-width:480px){
+	
+a[id^=htm0]{
+	width: 33%;
+	
+}
 }
